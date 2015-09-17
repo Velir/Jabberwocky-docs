@@ -33,4 +33,4 @@ Similar to the Core project, the **Jabberwocky.Autofac** project has no external
 
 The **Jabberwocky.WebApi** project also has no dependencies other than on **Jabberwocky.Core**, and WebApi.
 
-The remaining **Jabberwocky.Glass.\*** projects all rely on Glass Mapper, with each subsequent package relying on more and more dependencies (Autofac, MVC), and are meant to bootstrap and codify Sitecore development with a common set of patterns and practices.
+The remaining **Jabberwocky.Glass.\*** projects all rely on Glass Mapper, with each subsequent package relying on more and more dependencies (Autofac, MVC).  These packages are meant to bootstrap and codify Sitecore development with a common set of patterns and practices.

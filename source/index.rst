@@ -7,12 +7,8 @@ Welcome to Jabberwocky's documentation!
 =======================================
 
 .. toctree::
-	:maxdepth: 2
+	:maxdepth: 3
 
-Indices and tables
-==================
-
-* :ref:`genindex`
-* :ref:`modindex`
-* :ref:`search`
-* :doc:`getting-started/index`
+	getting-started/index
+	caching/index
+	packages/index
