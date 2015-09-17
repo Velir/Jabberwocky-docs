@@ -6,12 +6,8 @@
 Welcome to Jabberwocky's documentation!
 =======================================
 
-Contents:
-
 .. toctree::
-   :maxdepth: 2
-
-
+	:maxdepth: 2
 
 Indices and tables
 ==================
@@ -19,4 +15,4 @@ Indices and tables
 * :ref:`genindex`
 * :ref:`modindex`
 * :ref:`search`
-
+* :doc:`getting-started/index`
