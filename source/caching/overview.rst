@@ -16,4 +16,4 @@ Finally, there are multiple cache classes defined within the Jabberwocky librari
 * ``GeneralCache``
 * ``SiteCache``
 
-.. note:: If you plan on using IoC (via Autofac, which is highly recommended for all Sitecore projects), then you should avoid direct references to either of these concrete implementation, and instead rely on the ``ICacheProvider`` interface instead.
+.. note:: If you plan on using IoC (via Autofac, which is highly recommended for all Sitecore projects), then you should avoid direct references to either of these concrete implementations, and instead rely on the ``ICacheProvider`` interface instead.

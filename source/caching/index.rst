@@ -9,3 +9,4 @@ Caching
    usage
    cache-provider
    sitecore-decorator
+   async-caching
