@@ -57,4 +57,4 @@ You can also use the provided overloads with an absolute expiration.
 
 For the asynchronous overloads, there is also an optional ``CancellationToken`` parameter that you can pass to the ``GetFromCacheAsync`` function.  If the token is cancelled while the function is being awaited, you can either handle it yourself in the callback, or in the case where the current call is awaiting on the underlying asynchronous lock, the operation will be cancelled.
 
-Be sure to check out the section on :doc:`async-caching` for more information on the asynchronous functions, and cancellation.
+Be sure to check out the section on :doc:`async-caching` for more information on the asynchronous functions, including cancellation.

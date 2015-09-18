@@ -5,6 +5,8 @@ The following packages are included as part of the Jabberwocky library suite.
 
 The **core libraries** represent the common stack for developing on all new Sitecore solutions.  The **extra libraries** are recommended (but entirely optional), and include specific features that can be included in solutions piecemeal.
 
+The **code analysis** libraries are complements of their respective Core libraries, and provide diagnostics and code fixes for common patterns when using the respective Core libraries.  They are highly recommended if you are developing in Visual Studio 2015.
+
 Core Libraries
 -------------------
 
@@ -20,6 +22,13 @@ Extra Libraries
 -------------------
 
 * Jabberwocky.Autofac.Extras.MiniProfiler
+
+
+Code Analysis Libraries
+-------------------------
+
+* Jabberwocky.Core.CodeAnalysis (for *Jabberwocky.Core*)
+* Jabberwocky.Glass.CodeAnalysis (for *Jabberwocky.Glass*)
 
 
 Dependency Graph

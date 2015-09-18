@@ -11,4 +11,5 @@ Welcome to Jabberwocky's documentation!
 
 	getting-started/index
 	caching/index
+	glass-interface-factory/index
 	packages/index
