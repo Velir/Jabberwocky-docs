@@ -35,7 +35,7 @@ You can decorate your concrete classes with this attribute, and you can replace 
 	
 	builder.AutowireServices("YOUR.Library");
 
-What this does it automatically scan the provided assemblies, and for each type that is decorated with ``AutowireServiceAttribute``, Jabberwocky with automatically register that type as each of its implemented interfaces.
+What this does is automatically scan the provided assemblies, and for each type that is decorated with ``AutowireServiceAttribute``, Jabberwocky with automatically register that type as each of its implemented interfaces.
 
 So given a service with two interfaces, decorated with the ``AutowireServiceAttribute``:
 

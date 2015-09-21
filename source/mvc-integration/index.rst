@@ -6,3 +6,5 @@ MVC Integration
    :titlesonly:
 
    overview
+   best-practices
+   view-renderings
