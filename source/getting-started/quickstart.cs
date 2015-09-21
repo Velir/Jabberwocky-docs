@@ -13,7 +13,7 @@ public class AutofacConfig
 		builder.RegisterControllers(Assembly.GetExecutingAssembly());
 
 		// Module registrations
-		builder.RegisterModule(new MiniProfilerModule("YOURPROJECT.Library", "YOURPROJECT.Web")););
+		builder.RegisterModule(new MiniProfilerModule("YOURPROJECT.Library", "YOURPROJECT.Web"));
 		builder.RegisterModule(new LogInjectionModule<ILog>(LogManager.GetLogger);
 
 		// Custom Registrations

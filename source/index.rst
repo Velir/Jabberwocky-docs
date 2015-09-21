@@ -7,9 +7,12 @@ Welcome to Jabberwocky's documentation!
 =======================================
 
 .. toctree::
-	:maxdepth: 3
+	:maxdepth: 2
 
 	getting-started/index
 	caching/index
 	glass-interface-factory/index
+	mini-profiler/index
+	inversion-of-control/index
+	mvc-integration/index
 	packages/index
