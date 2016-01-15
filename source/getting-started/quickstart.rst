@@ -10,9 +10,9 @@ Then you'll want to add 'http://nuget.velir.com/nuget' as a feed (you can also n
 
 If you're starting a new MVC project, you can start by just including the **Jabberwocky.Glass.Autofac.Mvc** package into your website project.  If you're not using MVC, you can include the **Jabberwocky.Glass.Autofac** project instead.
 
-You will also want to pull in the **Glass.Mapper.Sc.CastleWindsor** package.  This will allow you to setup your Glass Models and configure the attribute loader in the GlassMapperScCustom.cs file.
+You will also want to pull in the **Glass.Mapper.Sc** package.  This will allow you to setup your Glass Models and configure the attribute loader in the GlassMapperScCustom.cs file.
 
-.. note:: You'll need to select 'Include Pre-Release' in the Nuget Package manager when searching for the Jabberwocky packages, as they are not 'stable' just yet.
+.. note:: For instructions on setting up Glass.Mapper, `refer to the guide here <http://glass.lu/Mapper/Sc/Tutorials/Tutorial1>`_.
 
 Notice that in either case, we're going to assume you'll be using the common stack of **Glass.Mapper** and **Autofac**.
 
