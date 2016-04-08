@@ -6,8 +6,8 @@ set temp_folder="%HOMEPATH%\.dockerTemp\%RANDOM%"
 
 REM %temp_folder%
 
-mkdir "%temp_folder%"
-xcopy source "%temp_folder%\source\" /E
+mkdir "C:%temp_folder%"
+xcopy source "C:%temp_folder%\source\" /E
 
 REM "C:\Program Files\Docker Toolbox\docker-machine" env default --shell=cmd
 
@@ -22,7 +22,7 @@ set nix_path=%nix_path:\=/%
 REM start /wait cmd /C "C:\Program Files\Docker Toolbox\docker" run --rm -it -v "%nix_path%":/src/docs orangetux/docker-sphinx
 
 REM Copy back over the html/dist folder
-xcopy "%temp_folder%\build" build /E
+xcopy "C:%temp_folder%\build" build /E /Y /I
 
 REM Delete the temp folder (cleanup)
-rmdir "%HOMEPATH%\.dockerTemp" /S /Q
+rmdir "C:%HOMEPATH%\.dockerTemp" /S /Q
