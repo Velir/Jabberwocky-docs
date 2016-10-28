@@ -36,3 +36,5 @@ A ViewModel is simply a class that inherits from the ``GlassViewModel<T>`` base 
 If you don't have a need for a particular Glass Mapper model in your View, but you still want to use a ViewModel, you can do so by specifying the generic type parameter as ``IGlassBase``, which all Sitecore items should be assignment compatible with.
 
 Because your View is now decoupled from your Glass Mapper model, and instead is using your custom ViewModel, you can also elect to use constructor injection within your ViewModel.  This allows you to pull in arbitrary dependencies in your ViewModel to write logic that dictates specific behavior for your View, without having to resort to polluting your Glass Mapper models (or creating one-off extension methods) with view-specific logic.
+
+In the :doc:`next section<view-model>`, we'll look at some of the advanced options available to you when using the Jabberwocky View Model pattern.

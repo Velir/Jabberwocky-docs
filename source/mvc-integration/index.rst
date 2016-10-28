@@ -8,3 +8,4 @@ MVC Integration
    overview
    best-practices
    view-renderings
+   view-model
